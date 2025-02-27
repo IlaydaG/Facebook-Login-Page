@@ -1,0 +1,108 @@
+body{
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-color: #3b5998; 
+    color: white;
+    padding: 10px 20px;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+  }
+  
+  .header .logo h1 {
+    color: white; 
+    font-size: 36px; 
+    font-weight: bold; 
+    margin: 0; 
+  }
+  
+  .header .login-container {
+    display: flex; 
+    align-items: center; 
+    white-space: nowrap;
+  }
+
+.header.login-container.inline-label{
+  display: inline;
+  white-space: nowrap;
+}
+  .header .login-container input {
+    margin: 0 5px; 
+    padding: 5px; 
+    border: none;
+    border-radius: 3px;
+  }
+  
+  .header .login-container button {
+    background-color: #4267b2; 
+    color: white; 
+    border: none; 
+    padding: 5px 15px; 
+    border-radius: 3px; 
+    cursor: pointer; 
+    
+  }
+
+  input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+  }
+
+.form label{
+    text-align: left;
+}
+
+.form-gender {
+  display: flex; 
+  gap: 10px; /* İki radyo düğmesi arasındaki boşluk */
+}
+
+.gender-option {
+  display: flex; 
+  align-items: center; 
+  gap: 5px; 
+}
+
+input[type="radio"] {
+  margin: 0; 
+}
+
+.button-create{
+    background-color: green;
+    color: #f0f2f5;
+    padding: 10px 15px;
+    font-size: medium;
+}
+
+.container {
+  display: flex;
+  justify-content: center; /* İçeriği ortalar */
+  align-items: center; /* Dikey hizalama */
+  height: 100vh; /* Sayfanın tamamını kaplasın */
+  gap: 100px; /* Fotoğraf ve form arasında boşluk */
+}
+
+/* Sol taraftaki resim */
+.photo {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+}
+
+.photo img {
+  width: 600px;
+  height: 350px;
+  border-radius: 10px;
+}
+
+.form {
+  width: 40%;
+  padding: 20px;
+
+}
